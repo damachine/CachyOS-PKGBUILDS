@@ -1,6 +1,6 @@
 pkgbase = cachyos-hello
 	pkgdesc = Welcome screen for CachyOS
-	pkgver = 0.22.2
+	pkgver = 0.23.0
 	pkgrel = 1
 	url = https://github.com/cachyos/cachyos-welcome
 	arch = x86_64
@@ -16,8 +16,8 @@ pkgbase = cachyos-hello
 	depends = gtk3
 	depends = pciutils
 	depends = procps-ng
-	source = cachyos-hello::git+https://github.com/cachyos/cachyos-welcome.git#tag=v0.22.2?signed
+	source = cachyos-hello::git+https://github.com/cachyos/cachyos-welcome.git#tag=v0.23.0?signed
 	validpgpkeys = B1B70BB1CD56047DEF31DE2EB62C3D10C54D5DA9
-	sha512sums = 44f593b135d6a5fa3a22413350dde10c1e719bbdffc49fef8c300b63da6a84b041729b725fcc9805e258532cd5e61a32675e3a1ec997fe8e4ca3ece64aee173c
+	sha512sums = 45d3f7c634157b8d18de7779ff4ad0752c6700c84978421315174ff373767acf353584393c0f4ab877713fd209063858fba8a34a157d36e1a2d86614a2994874
 
 pkgname = cachyos-hello
